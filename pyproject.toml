@@ -1,0 +1,15 @@
+[project]
+name = "lab04-pathakanshu"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "rich>=13.8.1,<14.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "gatorgrade>=0.5.1",
+    "ruff>=0.9.6",
+]
